@@ -6,3 +6,4 @@ class Discomfort(Checks):
     @check()
     def submitted(self):
         """ "What is your discomfort?" submitted"""
+        pass
