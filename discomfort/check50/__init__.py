@@ -5,7 +5,7 @@ class Discomfort(Checks):
 
     @check()
     def submitted(self):
-        """ "What is your discomfort?" submitted"""
+        """discomfort.txt exists"""
         pass
 
     @check()
