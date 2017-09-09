@@ -10,8 +10,8 @@ class Discomfort(Checks):
 
     @check()
     def at_least_50_words(self):
-        """assignment has at least 50 words"""
-        with open("assignment.txt") as f:
+        """Assignment has at least 50 words"""
+        with open("discomfort.txt") as f:
             word_count = len(f.read().split())
             if word_count < 50:
                 raise Error("50 words required, only {} found.".format(word_count))
